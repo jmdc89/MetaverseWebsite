@@ -3,9 +3,9 @@
 import { motion } from 'framer-motion';
 
 import styles from '../styles';
-import { newFeatures } from '../constants';
-import { NewFeatures, TitleText, TypingText } from '../components';
-import { planetVariants, staggerContainer, fadeIn } from '../utils/motion';
+import { startingFeatures } from '../constants';
+import { StartSteps, TitleText, TypingText } from '../components';
+import { staggerContainer, fadeIn, planetVariants } from '../utils/motion';
 
 const WhatsNew = () => (
   <section>
